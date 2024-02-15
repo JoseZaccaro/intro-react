@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link, NavLink } from 'react-router-dom'
 
 /* 
     href = string //? indica la ruta del link
@@ -9,7 +10,7 @@ import PropTypes from 'prop-types'
 const Anchor = (props) => {
     // console.log(props.children)
     return (
-        <a href={props.href}>{props.text}</a>
+        <NavLink to={props.href} >{props.text}</NavLink>
     )
 }
 

@@ -56,3 +56,7 @@ header nav a {
   text-decoration: none;
   padding: 4px;
 }
+
+a.active {
+  color: rgb(239, 68, 68);
+}
